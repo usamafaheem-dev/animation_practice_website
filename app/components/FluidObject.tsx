@@ -113,7 +113,7 @@ function AnimatedSnake() {
 export default function FluidObject() {
   return (
     <div className="w-full h-full relative z-20">
-      <Canvas dpr={[1, 2]} alpha camera={{ position: [0, 0, 9], fov: 45 }}>
+      <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 9], fov: 45 }}>
         <ambientLight intensity={1.2} />
         <spotLight position={[10, 10, 10]} intensity={5} color="#ffffff" />
         <pointLight position={[-10, 5, 5]} intensity={4} color="#fb7185" />
